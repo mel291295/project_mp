@@ -1,9 +1,8 @@
-#!Python
-#importing the libraries
+#import libraries
 import streamlit as st
+import pandas as pd
+import numpy as np
 
+#title
+st.title("Once upon a time")
 
-#main function
-def main():
-  st.title("Once upon a time")
-  st.write("Summary, Translation and Text Preprocessing of Fairy Tales")
